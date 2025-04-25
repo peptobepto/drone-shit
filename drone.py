@@ -36,7 +36,7 @@ def detect_bounding_box(video_frame):
         cv2.putText(video_frame, position, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (r, g, b), 2)
 
     return faces
-
+    #big mac form mcdonalds with the drink is what i want
 while True:
     result, video_frame = vid.read()
     if result is False:
